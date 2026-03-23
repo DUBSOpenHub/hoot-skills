@@ -96,6 +96,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [documentation-writer](documentation-writer/) | 'Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentati... |
 | [dotnet-best-practices](dotnet-best-practices/) | 'Ensure .NET/C# code meets best practices for the solution/project.' |
 | [dotnet-design-pattern-review](dotnet-design-pattern-review/) | 'Review the C#/.NET code for design pattern implementation and suggest improvements.' |
+| [dotnet-timezone](dotnet-timezone/) | '.NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, U... |
 | [dotnet-upgrade](dotnet-upgrade/) | 'Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution' |
 | [doublecheck](doublecheck/) | 'Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sourc... |
 | [editorconfig](editorconfig/) | 'Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferenc... |
