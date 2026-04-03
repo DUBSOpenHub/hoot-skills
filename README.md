@@ -204,6 +204,8 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [outlook-mail](outlook-mail/) | Read and send Outlook email via Microsoft Graph. All outbound email requires explicit user approval before sending. |
 | [pdftk-server](pdftk-server/) | 'Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs,... |
 | [penpot-uiux-design](penpot-uiux-design/) | 'Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Crea... |
+| [phoenix-evals](phoenix-evals/) | Build and run evaluators for AI/LLM applications using Phoenix. |
+| [phoenix-tracing](phoenix-tracing/) | OpenInference semantic conventions and instrumentation for Phoenix AI observability. Use when implementing LLM tracin... |
 | [php-mcp-server-generator](php-mcp-server-generator/) | 'Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the of... |
 | [pitch-master](pitch-master/) | 🎤 Pitch Master — transforms ANY concept, repo README, or about section into a world-class Y Combinator / TechStars 60... |
 | [planning-oracle-to-postgres-migration-integration-testing](planning-oracle-to-postgres-migration-integration-testing/) | 'Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. ... |
