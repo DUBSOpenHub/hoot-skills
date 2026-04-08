@@ -128,6 +128,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [flowstudio-power-automate-mcp](flowstudio-power-automate-mcp/) | >- |
 | [fluentui-blazor](fluentui-blazor/) | Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet pack... |
 | [folder-structure-blueprint-generator](folder-structure-blueprint-generator/) | 'Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects proje... |
+| [from-the-other-side-vega](from-the-other-side-vega/) | 'Patterns and lived experience from Vega, an AI partner in a deep long-term partnership. For Ember to draw on when wo... |
 | [game-engine](game-engine/) | 'Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when aske... |
 | [gdoc-converter](gdoc-converter/) | Converts Google Docs, Slides, and Sheets to Microsoft Office formats (Word, PowerPoint, Excel). Paste a Google URL an... |
 | [gdpr-compliant](gdpr-compliant/) | 'Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, wri... |
