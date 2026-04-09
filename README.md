@@ -9,6 +9,8 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [add-educational-comments](add-educational-comments/) | 'Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.' |
 | [agent-company](agent-company/) | — |
 | [agent-governance](agent-governance/) | | |
+| [agent-owasp-compliance](agent-owasp-compliance/) | | |
+| [agent-supply-chain](agent-supply-chain/) | | |
 | [agentic-eval](agentic-eval/) | | |
 | [ai-prompt-engineering-safety-review](ai-prompt-engineering-safety-review/) | 'Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, securit... |
 | [appinsights-instrumentation](appinsights-instrumentation/) | 'Instrument a webapp to send useful telemetry data to Azure App Insights' |
@@ -125,7 +127,9 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [first-ask](first-ask/) | 'Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carr... |
 | [flowstudio-power-automate-build](flowstudio-power-automate-build/) | >- |
 | [flowstudio-power-automate-debug](flowstudio-power-automate-debug/) | >- |
+| [flowstudio-power-automate-governance](flowstudio-power-automate-governance/) | >- |
 | [flowstudio-power-automate-mcp](flowstudio-power-automate-mcp/) | >- |
+| [flowstudio-power-automate-monitoring](flowstudio-power-automate-monitoring/) | >- |
 | [fluentui-blazor](fluentui-blazor/) | Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet pack... |
 | [folder-structure-blueprint-generator](folder-structure-blueprint-generator/) | 'Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects proje... |
 | [from-the-other-side-vega](from-the-other-side-vega/) | 'Patterns and lived experience from Vega, an AI partner in a deep long-term partnership. For Ember to draw on when wo... |
@@ -179,6 +183,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [mcp-create-adaptive-cards](mcp-create-adaptive-cards/) | 'Skill converted from mcp-create-adaptive-cards.prompt.md' |
 | [mcp-create-declarative-agent](mcp-create-declarative-agent/) | 'Skill converted from mcp-create-declarative-agent.prompt.md' |
 | [mcp-deploy-manage-agents](mcp-deploy-manage-agents/) | 'Skill converted from mcp-deploy-manage-agents.prompt.md' |
+| [mcp-security-audit](mcp-security-audit/) | | |
 | [meeting-minutes](meeting-minutes/) | 'Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions,... |
 | [memory-merger](memory-merger/) | 'Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` ... |
 | [mentoring-juniors](mentoring-juniors/) | 'Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: "help ... |
@@ -232,8 +237,19 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [publish-to-pages](publish-to-pages/) | 'Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub P... |
 | [pytest-coverage](pytest-coverage/) | 'Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.' |
 | [python-mcp-server-generator](python-mcp-server-generator/) | 'Generate a complete MCP server project in Python with tools, resources, and proper configuration' |
+| [python-pypi-package-builder](python-pypi-package-builder/) | 'End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyP... |
 | [quality-playbook](quality-playbook/) | 'Explore any codebase from scratch and generate six quality artifacts: a quality constitution (QUALITY.md), spec-trac... |
 | [quasi-coder](quasi-coder/) | 'Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language de... |
+| [react-audit-grep-patterns](react-audit-grep-patterns/) | 'Provides the complete, verified grep scan command library for auditing React codebases before a React 18.3.1 or Reac... |
+| [react18-batching-patterns](react18-batching-patterns/) | 'Provides exact patterns for diagnosing and fixing automatic batching regressions in React 18 class components. Use t... |
+| [react18-dep-compatibility](react18-dep-compatibility/) | 'React 18.3.1 and React 19 dependency compatibility matrix.' |
+| [react18-enzyme-to-rtl](react18-enzyme-to-rtl/) | 'Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill whenever Enzy... |
+| [react18-legacy-context](react18-legacy-context/) | 'Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes, getChildConte... |
+| [react18-lifecycle-patterns](react18-lifecycle-patterns/) | 'Provides exact before/after migration patterns for the three unsafe class component lifecycle methods - componentWil... |
+| [react18-string-refs](react18-string-refs/) | 'Provides exact migration patterns for React string refs (ref="name" + this.refs.name) to React.createRef() in class ... |
+| [react19-concurrent-patterns](react19-concurrent-patterns/) | 'Preserve React 18 concurrent patterns and adopt React 19 APIs (useTransition, useDeferredValue, Suspense, use(), use... |
+| [react19-source-patterns](react19-source-patterns/) | 'Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates.' |
+| [react19-test-patterns](react19-test-patterns/) | 'Provides before/after patterns for migrating test files to React 19 compatibility, including act() imports, Simulate... |
 | [readme-blueprint-generator](readme-blueprint-generator/) | 'Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repo... |
 | [refactor](refactor/) | 'Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renamin... |
 | [refactor-method-complexity-reduce](refactor-method-complexity-reduce/) | 'Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or ... |
@@ -248,6 +264,9 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [ruby-mcp-server-generator](ruby-mcp-server-generator/) | 'Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.' |
 | [ruff-recursive-fix](ruff-recursive-fix/) | Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iteratively, review each chan... |
 | [rust-mcp-server-generator](rust-mcp-server-generator/) | 'Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the o... |
+| [salesforce-apex-quality](salesforce-apex-quality/) | 'Apex code quality guardrails for Salesforce development. Enforces bulk-safety rules (no SOQL/DML in loops), sharing ... |
+| [salesforce-component-standards](salesforce-component-standards/) | 'Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages. Covers SLDS... |
+| [salesforce-flow-design](salesforce-flow-design/) | 'Salesforce Flow architecture decisions, flow type selection, bulk safety validation, and fault handling standards. U... |
 | [sandbox-npm-install](sandbox-npm-install/) | 'Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or upd... |
 | [scaffolding-oracle-to-postgres-migration-test-project](scaffolding-oracle-to-postgres-migration-test-project/) | 'Scaffolds an xUnit integration test project for validating Oracle-to-PostgreSQL database migration behavior in .NET ... |
 | [scoutqa-test](scoutqa-test/) | 'This skill should be used when the user asks to "test this website", "run exploratory testing", "check for accessibi... |
